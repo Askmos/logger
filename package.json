@@ -1,0 +1,29 @@
+{
+  "name": "logger",
+  "engines": {
+    "node": ">=6.9.5"
+  },
+  "version": "1.0.0",
+  "description": "logger configuration for mos services",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint $(git ls-files '*.js')",
+    "test": "mocha tests/unit"
+  },
+  "repository": "Askmos/logger",
+  "keywords": [
+    "logger",
+    "mos",
+    "winston"
+  ],
+  "author": "David Zhang",
+  "dependencies": {
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {},
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/Askmos/logger/issues"
+  },
+  "homepage": "https://github.com/Askmos/logger"
+}
