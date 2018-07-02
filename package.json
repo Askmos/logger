@@ -3,7 +3,7 @@
   "engines": {
     "node": ">=6.9.5"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "logger configuration for mos services",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,7 @@
   ],
   "author": "David Zhang",
   "dependencies": {
+    "sprintf-js": "^1.1.1",
     "winston": "^3.0.0"
   },
   "devDependencies": {},
