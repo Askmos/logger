@@ -18,6 +18,7 @@
   ],
   "author": "David Zhang",
   "dependencies": {
+    "sprintf-js": "^1.1.1",
     "winston": "^3.0.0"
   },
   "devDependencies": {},
