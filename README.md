@@ -14,6 +14,12 @@ yarn add Askmos/logger
 
 ## Usage
 
+In your console, set your node environment to development to enable the development formatting:
+
+`export NODE_ENV=development`
+
+Then, inside your projects:
+
 ```javascript
 const logger = require('logger');
 
