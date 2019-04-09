@@ -1,1 +1,2 @@
-export * from "./lib/logger";
+import logger = require("./lib/logger");
+export = logger;

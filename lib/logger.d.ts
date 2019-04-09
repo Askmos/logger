@@ -1,2 +1,2 @@
 import winston = require("winston");
-export default winston;
+export = winston;
